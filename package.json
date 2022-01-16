@@ -7,9 +7,18 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@ocrv/vue-tailwind-pagination": "^0.0.4",
+    "@tailwindcss/postcss7-compat": "^2.2.17",
+    "autoprefixer": "^9",
+    "axios": "^0.24.0",
     "core-js": "^3.6.5",
+    "jw-vue-pagination": "^1.0.3",
+    "postcss": "^7",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
+    "vuejs-paginate": "^2.1.0",
+    "vuelidate": "^0.7.7",
     "vuex": "^3.4.0"
   },
   "devDependencies": {
@@ -17,6 +26,7 @@
     "@vue/cli-plugin-router": "~4.5.0",
     "@vue/cli-plugin-vuex": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
+    "vue-cli-plugin-tailwind": "^2.2.18",
     "vue-template-compiler": "^2.6.11"
   },
   "browserslist": [

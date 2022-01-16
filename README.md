@@ -9,6 +9,10 @@ npm install
 ```
 npm run serve
 ```
+### Run json-server to take database
+```
+json-server -w db.json
+```
 
 ### Compiles and minifies for production
 ```
