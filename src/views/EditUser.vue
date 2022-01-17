@@ -27,7 +27,7 @@
                 </option>
               </select>
               <input
-                type="datetime-local"
+                type="date"
                 placeholder="Birthdate"
                 class="border-2 w-full px-4 py-2 rounded-md text-md text-gray-700 outline-none"
                 v-model="datetime"

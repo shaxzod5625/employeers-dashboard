@@ -27,7 +27,7 @@
                 </option>
               </select>
               <input
-                type="datetime-local"
+                type="date"
                 placeholder="Birthdate"
                 class="border-2 w-full px-4 py-2 rounded-md text-md text-gray-700 outline-none"
                 v-model="datetime"
@@ -99,6 +99,10 @@ export default {
       }
       try {
         await this.$store.dispatch('addEmploteer', form)
+        this.fullname = ''
+        this.datetime = null
+        this.position = null
+        this.gender = undefined
       } catch (e) {
         console.log(e);
         throw e
