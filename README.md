@@ -1,4 +1,4 @@
-# hr-test
+# employeers-dashboard
 
 ## Project setup
 ```
